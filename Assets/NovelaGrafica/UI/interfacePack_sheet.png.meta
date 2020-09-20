@@ -1,0 +1,2984 @@
+fileFormatVersion: 2
+guid: 8b0f409c045b7e7459d950db79b930f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7844335855304779064
+    second: bannerHanging.png
+  - first:
+      213: 1399526780250965196
+    second: bannerModern.png
+  - first:
+      213: -3571705977882734168
+    second: bannerScroll.png
+  - first:
+      213: -1079445181186148511
+    second: button_metalBlank.png
+  - first:
+      213: -839779447237044317
+    second: button_metalCircle.png
+  - first:
+      213: -7658403608160766837
+    second: button_metalClose.png
+  - first:
+      213: 4485668154561257818
+    second: button_rectangleMetal.png
+  - first:
+      213: 5952106769801333002
+    second: button_rectangleMetalClose.png
+  - first:
+      213: -5181144337698332471
+    second: button_rectangleRed.png
+  - first:
+      213: -1884873415673870207
+    second: button_rectangleRedClose.png
+  - first:
+      213: 1628306168645672932
+    second: button_rectangleWood.png
+  - first:
+      213: 5953055652954375489
+    second: button_rectangleWoodClose.png
+  - first:
+      213: 5537461081822308843
+    second: button_woodBlank.png
+  - first:
+      213: 7815735906505672245
+    second: button_woodCircle.png
+  - first:
+      213: -1412302399423476733
+    second: button_woodClose.png
+  - first:
+      213: 7954052695906197352
+    second: button_woodPaperBlank.png
+  - first:
+      213: 1876755838207313462
+    second: button_woodPaperCircle.png
+  - first:
+      213: 5822994588187418748
+    second: button_woodPaperClose.png
+  - first:
+      213: -2548592342842321713
+    second: hexagon_metal.png
+  - first:
+      213: 5759453232630490166
+    second: hexagon_metalDark.png
+  - first:
+      213: -1252508318968850870
+    second: hexagon_metalGreen.png
+  - first:
+      213: 5603223603619268332
+    second: hexagon_metalRed.png
+  - first:
+      213: -1258223658497795605
+    second: hexagon_wood.png
+  - first:
+      213: -2373654063935590227
+    second: hexagon_woodPaper.png
+  - first:
+      213: -7742496005398681642
+    second: hexagon_woodPaperWear.png
+  - first:
+      213: 1521621297156300122
+    second: hexagon_woodWear.png
+  - first:
+      213: 7919467605056416430
+    second: minimapDirection_E.png
+  - first:
+      213: 3703854538735708069
+    second: minimapDirection_N.png
+  - first:
+      213: -5875492834969231003
+    second: minimapDirection_S.png
+  - first:
+      213: 59647362112168056
+    second: minimapDirection_W.png
+  - first:
+      213: -6615527249036614973
+    second: minimapIcon_arrowA.png
+  - first:
+      213: 1199179935984115927
+    second: minimapIcon_arrowB.png
+  - first:
+      213: 6350740316703326275
+    second: minimapIcon_arrowC.png
+  - first:
+      213: 7325811091809857142
+    second: minimapIcon_arrowD.png
+  - first:
+      213: 3090896608041015441
+    second: minimapIcon_exclamationRed.png
+  - first:
+      213: 1876825706197671876
+    second: minimapIcon_exclamationWhite.png
+  - first:
+      213: -3102561426233483788
+    second: minimapIcon_exclamationYellow.png
+  - first:
+      213: 1442150329753312025
+    second: minimapIcon_jewelRed.png
+  - first:
+      213: 4268949894390271046
+    second: minimapIcon_jewelWhite.png
+  - first:
+      213: -4876030673248714715
+    second: minimapIcon_jewelYellow.png
+  - first:
+      213: 6717563137928972671
+    second: minimapIcon_starRed.png
+  - first:
+      213: 1946132703677957137
+    second: minimapIcon_starWhite.png
+  - first:
+      213: 3960704256299856915
+    second: minimapIcon_starYellow.png
+  - first:
+      213: 8491582427973338336
+    second: minimapMap_blank.png
+  - first:
+      213: 607468583869581876
+    second: minimapMap_stone.png
+  - first:
+      213: -7867314970915855738
+    second: minimapMap_stoneRing.png
+  - first:
+      213: 3090161019090353578
+    second: minimapMap_wood.png
+  - first:
+      213: 394927463362299190
+    second: minimapMap_woodRing.png
+  - first:
+      213: -7781206123770136290
+    second: panel_blueprintPaperWear.png
+  - first:
+      213: 3462264569684491534
+    second: panel_blueprintWear.png
+  - first:
+      213: 3523019080223989570
+    second: panel_boltsBlue.png
+  - first:
+      213: 262612677687093596
+    second: panel_boltsDetail.png
+  - first:
+      213: -8124588841704084544
+    second: panel_boltsDetailSquare.png
+  - first:
+      213: -6794355900115113197
+    second: panel_boltsDetailSquare_blank.png
+  - first:
+      213: -7666686508573720957
+    second: panel_boltsGreen.png
+  - first:
+      213: 8283407216684078378
+    second: panel_boltsRed.png
+  - first:
+      213: 1577648359148919802
+    second: panel_metal.png
+  - first:
+      213: -8037548142707990140
+    second: panel_metalBlank.png
+  - first:
+      213: 3803249539033655296
+    second: panel_metalBlue.png
+  - first:
+      213: -5594911470366009805
+    second: panel_metalBolts.png
+  - first:
+      213: 437863372236912579
+    second: panel_metalBoltsDark.png
+  - first:
+      213: 8532574320460332313
+    second: panel_metalDark.png
+  - first:
+      213: -171739907907321668
+    second: panel_metalGreen.png
+  - first:
+      213: -8057885112545678663
+    second: panel_metalRed.png
+  - first:
+      213: -9166932204057400876
+    second: panel_wood.png
+  - first:
+      213: -8981502269974537483
+    second: panel_woodArrows.png
+  - first:
+      213: 3932866547464502899
+    second: panel_woodDetail.png
+  - first:
+      213: -6201285119074486839
+    second: panel_woodDetailArrows.png
+  - first:
+      213: 1095306100722075779
+    second: panel_woodDetailSquare.png
+  - first:
+      213: -7245489901107538402
+    second: panel_woodDetail_blank.png
+  - first:
+      213: 7721016044204065263
+    second: panel_woodPaper.png
+  - first:
+      213: -298977304634889437
+    second: panel_woodPaperArrows.png
+  - first:
+      213: -5316421725079404311
+    second: panel_woodPaperDetail.png
+  - first:
+      213: -8384296713363298751
+    second: panel_woodPaperDetailArrows.png
+  - first:
+      213: 4548774552996475602
+    second: panel_woodPaperDetailSquare.png
+  - first:
+      213: -8106872027775180140
+    second: panel_woodPaperWear.png
+  - first:
+      213: -1753748102118680589
+    second: panel_woodWear.png
+  - first:
+      213: -2276201854472140584
+    second: panel_woodWear_blank.png
+  - first:
+      213: 9221212789798909015
+    second: patternStripesMetal_large.png
+  - first:
+      213: -8304057162801195114
+    second: patternStripesMetal_small.png
+  - first:
+      213: -78801265711412630
+    second: patternStripesRed_large.png
+  - first:
+      213: -6630215537275592564
+    second: patternStripesRed_small.png
+  - first:
+      213: -6313209103313877585
+    second: patternStripesShadow_large.png
+  - first:
+      213: 9129842114846375029
+    second: patternStripesShadow_small.png
+  - first:
+      213: 3598716194386981328
+    second: pattern_blueprint.png
+  - first:
+      213: -529660711643464899
+    second: pattern_blueprintPaper.png
+  - first:
+      213: -8391089178936030343
+    second: progress.png
+  - first:
+      213: 5370555470404618114
+    second: progress_blue.png
+  - first:
+      213: -8089824748142884341
+    second: progress_blueBorder.png
+  - first:
+      213: 3956492214995584043
+    second: progress_blueBorderSmall.png
+  - first:
+      213: 1449629321776627832
+    second: progress_blueSmall.png
+  - first:
+      213: -5036548914964676791
+    second: progress_green.png
+  - first:
+      213: 1183968617248444263
+    second: progress_greenBorder.png
+  - first:
+      213: -6467175601559036549
+    second: progress_greenBorderSmall.png
+  - first:
+      213: 3592157062343591881
+    second: progress_greenSmall.png
+  - first:
+      213: 17787229822567485
+    second: progress_red.png
+  - first:
+      213: -8930724950992863323
+    second: progress_redBorder.png
+  - first:
+      213: 2222557712994624823
+    second: progress_redBorderSmall.png
+  - first:
+      213: -6728842683410886457
+    second: progress_redSmall.png
+  - first:
+      213: 6793885732163246495
+    second: progress_small.png
+  - first:
+      213: -8608247017014351188
+    second: round_metal.png
+  - first:
+      213: -3441360543694434884
+    second: round_metalDark.png
+  - first:
+      213: 2261974025402416356
+    second: round_metalGreen.png
+  - first:
+      213: 7667100383501066446
+    second: round_metalRed.png
+  - first:
+      213: 5838242388992128050
+    second: round_wood.png
+  - first:
+      213: -5242901242385217702
+    second: round_woodPaper.png
+  - first:
+      213: 4299694338715320351
+    second: round_woodPaperWear.png
+  - first:
+      213: -4206077144494901738
+    second: round_woodWear.png
+  - first:
+      213: -6609690577608564492
+    second: scrollbar_barPoint.png
+  - first:
+      213: -298818297306608269
+    second: scrollbar_barPointSmall.png
+  - first:
+      213: 4816780445868741856
+    second: scrollbar_barRound.png
+  - first:
+      213: -3129561231031036346
+    second: scrollbar_barRoundSmall.png
+  - first:
+      213: -8554814860989585742
+    second: scrollbar_metal.png
+  - first:
+      213: 7348603089588099053
+    second: scrollbar_metalRed.png
+  - first:
+      213: -8441815692884211038
+    second: scrollbar_metalRedSmall.png
+  - first:
+      213: 7397479527353448623
+    second: scrollbar_metalSmall.png
+  - first:
+      213: 106195217564897805
+    second: scrollbar_stone.png
+  - first:
+      213: -2086336064579308659
+    second: scrollbar_stoneSmall.png
+  - first:
+      213: -4387450707523443558
+    second: scrollbar_wood.png
+  - first:
+      213: 8118895460024324746
+    second: scrollbar_woodSmall.png
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bannerHanging.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 537
+        width: 268
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cad2b5c912532390800000000000000
+      internalID: -7844335855304779064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bannerModern.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 487
+        width: 264
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4418e013e1c6310800000000000000
+      internalID: 1399526780250965196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bannerScroll.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 261
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1192a3650ce6ec0800000000000000
+      internalID: -3571705977882734168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_metalBlank.png
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16774eca35a0501f0800000000000000
+      internalID: -1079445181186148511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_metalCircle.png
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a713c5ca018854f0800000000000000
+      internalID: -839779447237044317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_metalClose.png
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 252
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84f10d8e72e7b590800000000000000
+      internalID: -7658403608160766837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_rectangleMetal.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51e7e4ab6b404e30800000000000000
+      internalID: 4485668154561257818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_rectangleMetalClose.png
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09c43f42912a9250800000000000000
+      internalID: 5952106769801333002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_rectangleRed.png
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0e67dfca0e818b0800000000000000
+      internalID: -5181144337698332471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_rectangleRedClose.png
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1888e2c6d9597d5e0800000000000000
+      internalID: -1884873415673870207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_rectangleWood.png
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efd3bf45d7e89610800000000000000
+      internalID: 1628306168645672932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_rectangleWoodClose.png
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1450a7263908d9250800000000000000
+      internalID: 5953055652954375489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_woodBlank.png
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 228
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9a193e38309dc40800000000000000
+      internalID: 5537461081822308843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_woodCircle.png
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536498db562177c60800000000000000
+      internalID: 7815735906505672245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_woodClose.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 252
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c8eee437e766ce0800000000000000
+      internalID: -1412302399423476733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_woodPaperBlank.png
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 188
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f1a38d8c8726e60800000000000000
+      internalID: 7954052695906197352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_woodPaperCircle.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 228
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636cc7acd739b0a10800000000000000
+      internalID: 1876755838207313462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_woodPaperClose.png
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 164
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70eee5f9be6fc050800000000000000
+      internalID: 5822994588187418748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_metal.png
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 468
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc45a9764c491acd0800000000000000
+      internalID: -2548592342842321713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_metalDark.png
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 276
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6346a6f3330bdef40800000000000000
+      internalID: 5759453232630490166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_metalGreen.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 148
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46d3a9e1523e9ee0800000000000000
+      internalID: -1252508318968850870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_metalRed.png
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 532
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce68fca2e26a2cd40800000000000000
+      internalID: 5603223603619268332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_wood.png
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 404
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be91f3bbf34e98ee0800000000000000
+      internalID: -1258223658497795605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_woodPaper.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 84
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0f47b74361f0fd0800000000000000
+      internalID: -2373654063935590227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_woodPaperWear.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 20
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7a45397e02d8490800000000000000
+      internalID: -7742496005398681642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_woodWear.png
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 340
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d9ba30282ed1510800000000000000
+      internalID: 1521621297156300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapDirection_E.png
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 315
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaae991e3d997ed60800000000000000
+      internalID: 7919467605056416430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapDirection_N.png
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 168
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a76f01441cb66330800000000000000
+      internalID: 3703854538735708069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapDirection_S.png
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 142
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5616e43756e067ea0800000000000000
+      internalID: -5875492834969231003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapDirection_W.png
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 168
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8702c76b5f8e3d000800000000000000
+      internalID: 59647362112168056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapIcon_arrowA.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2614f740de034a0800000000000000
+      internalID: -6615527249036614973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapIcon_arrowB.png
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0eb1a5cc754a010800000000000000
+      internalID: 1199179935984115927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapIcon_arrowC.png
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 152
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3408add9bac522850800000000000000
+      internalID: 6350740316703326275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapIcon_arrowD.png
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e61facf528aa560800000000000000
+      internalID: 7325811091809857142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapIcon_exclamationRed.png
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 262
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1989eb7b61215ea20800000000000000
+      internalID: 3090896608041015441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapIcon_exclamationWhite.png
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 26
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfdb333903db0a10800000000000000
+      internalID: 1876825706197671876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapIcon_exclamationYellow.png
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 175
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd168722dc71f4d0800000000000000
+      internalID: -3102561426233483788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapIcon_jewelRed.png
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b98a5851c830410800000000000000
+      internalID: 1442150329753312025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapIcon_jewelWhite.png
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cc213af4b5e3b30800000000000000
+      internalID: 4268949894390271046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapIcon_jewelYellow.png
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5200a1fdfebd45cb0800000000000000
+      internalID: -4876030673248714715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapIcon_starRed.png
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79c3803514993d50800000000000000
+      internalID: 6717563137928972671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapIcon_starWhite.png
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114ce78026d020b10800000000000000
+      internalID: 1946132703677957137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapIcon_starYellow.png
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3147121598f37f630800000000000000
+      internalID: 3960704256299856915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapMap_blank.png
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 296
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4cc485a3928d570800000000000000
+      internalID: 8491582427973338336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapMap_stone.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a81c165792e6800800000000000000
+      internalID: 607468583869581876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapMap_stoneRing.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682a27e77bea1d290800000000000000
+      internalID: -7867314970915855738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapMap_wood.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadb3a1131572ea20800000000000000
+      internalID: 3090161019090353578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimapMap_woodRing.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 24
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63581cd7f601b7500800000000000000
+      internalID: 394927463362299190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_blueprintPaperWear.png
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 168
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19369cc14a930490800000000000000
+      internalID: -7781206123770136290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_blueprintWear.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0df672484f6c0030800000000000000
+      internalID: 3462264569684491534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_boltsBlue.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 40
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f9cad003744e030800000000000000
+      internalID: 3523019080223989570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_boltsDetail.png
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 473
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59ad07c6dcf4a300800000000000000
+      internalID: 262612677687093596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_boltsDetailSquare.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 468
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb20209e79af3f80800000000000000
+      internalID: -8124588841704084544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_boltsDetailSquare_blank.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 404
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b2f009e4995b1a0800000000000000
+      internalID: -6794355900115113197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_boltsGreen.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38efe248d357a9590800000000000000
+      internalID: -7666686508573720957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_boltsRed.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a259c58e9f294f270800000000000000
+      internalID: 8283407216684078378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_metal.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb9c8be2dee4e510800000000000000
+      internalID: 1577648359148919802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_metalBlank.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4812ac88c84e47090800000000000000
+      internalID: -8037548142707990140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_metalBlue.png
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 168
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008e4462e4bd7c430800000000000000
+      internalID: 3803249539033655296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_metalBolts.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336531b29a1ea52b0800000000000000
+      internalID: -5594911470366009805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_metalBoltsDark.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7f55aca6a931600800000000000000
+      internalID: 437863372236912579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_metalDark.png
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 532
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d78ae032bc96670800000000000000
+      internalID: 8532574320460332313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_metalGreen.png
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 468
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb00d63b67bdd9df0800000000000000
+      internalID: -171739907907321668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_metalRed.png
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 232
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba6ec1ce24ac2090800000000000000
+      internalID: -8057885112545678663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_wood.png
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 404
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9e1199ab388c080800000000000000
+      internalID: -9166932204057400876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_woodArrows.png
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa9dc0854b4b5380800000000000000
+      internalID: -8981502269974537483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_woodDetail.png
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 232
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e73a6a949549630800000000000000
+      internalID: 3932866547464502899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_woodDetailArrows.png
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c536ae3a0c90f9a0800000000000000
+      internalID: -6201285119074486839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_woodDetailSquare.png
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3888bdd681f433f00800000000000000
+      internalID: 1095306100722075779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_woodDetail_blank.png
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e161eccb259d27b90800000000000000
+      internalID: -7245489901107538402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_woodPaper.png
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe100eb3f2f862b60800000000000000
+      internalID: 7721016044204065263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_woodPaperArrows.png
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b6559b9b1d9dbf0800000000000000
+      internalID: -298977304634889437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_woodPaperDetail.png
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 532
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e00970db964836b0800000000000000
+      internalID: -5316421725079404311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_woodPaperDetailArrows.png
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 468
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1466184af8ef4ab80800000000000000
+      internalID: -8384296713363298751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_woodPaperDetailSquare.png
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 404
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2f0b20b5e702f30800000000000000
+      internalID: 4548774552996475602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_woodPaperWear.png
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492e8e0c7da9e7f80800000000000000
+      internalID: -8106872027775180140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_woodWear.png
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f753b3946f69a7e0800000000000000
+      internalID: -1753748102118680589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_woodWear_blank.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d84a13297e4960e0800000000000000
+      internalID: -2276201854472140584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patternStripesMetal_large.png
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 12
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754b04e1d2458ff70800000000000000
+      internalID: 9221212789798909015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patternStripesMetal_small.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 12
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69752b8d10012cc80800000000000000
+      internalID: -8304057162801195114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patternStripesRed_large.png
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 189
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a8b659aaa08eef0800000000000000
+      internalID: -78801265711412630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patternStripesRed_small.png
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 540
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80a964e81ebcf3a0800000000000000
+      internalID: -6630215537275592564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patternStripesShadow_large.png
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 189
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5c634f4c9f268a0800000000000000
+      internalID: -6313209103313877585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patternStripesShadow_small.png
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 568
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cb1de0807b3be70800000000000000
+      internalID: 9129842114846375029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_blueprint.png
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 540
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1b1eddf4531f130800000000000000
+      internalID: 3598716194386981328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_blueprintPaper.png
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 568
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bb207936446a8f0800000000000000
+      internalID: -529660711643464899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress.png
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 108
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bc4e289dcdc8b80800000000000000
+      internalID: -8391089178936030343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_blue.png
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 48
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2878ff3febb088a40800000000000000
+      internalID: 5370555470404618114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_blueBorder.png
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 281
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a87c7d04b2bbf80800000000000000
+      internalID: -8089824748142884341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_blueBorderSmall.png
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24096705b848e630800000000000000
+      internalID: 3956492214995584043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_blueSmall.png
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 156
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8708c7c003e1e1410800000000000000
+      internalID: 1449629321776627832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_green.png
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 18
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fb6a552759a1ab0800000000000000
+      internalID: -5036548914964676791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_greenBorder.png
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 498
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fcd483f2d4e6010800000000000000
+      internalID: 1183968617248444263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_greenBorderSmall.png
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d10011e0aff36a0800000000000000
+      internalID: -6467175601559036549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_greenSmall.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7866ee0d7e9d130800000000000000
+      internalID: 3592157062343591881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_red.png
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 78
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34cc1b24613f3000800000000000000
+      internalID: 17787229822567485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_redBorder.png
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 336
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af3a5d59f0bf0480800000000000000
+      internalID: -8930724950992863323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_redBorderSmall.png
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73569dfd67c18de10800000000000000
+      internalID: 2222557712994624823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_redSmall.png
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 156
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0dec9fa395e92a0800000000000000
+      internalID: -6728842683410886457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_small.png
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f995f2ee31bb84e50800000000000000
+      internalID: 6793885732163246495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_metal.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 532
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa2b0c42fc598880800000000000000
+      internalID: -8608247017014351188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_metalDark.png
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 25
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd4c0191d4dd30d0800000000000000
+      internalID: -3441360543694434884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_metalGreen.png
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 89
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec75434465246f10800000000000000
+      internalID: 2261974025402416356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_metalRed.png
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 153
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0a7df3d23076a60800000000000000
+      internalID: 7667100383501066446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_wood.png
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 217
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234f08c358a950150800000000000000
+      internalID: 5838242388992128050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_woodPaper.png
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 281
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57cc2f19197d37b0800000000000000
+      internalID: -5242901242385217702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_woodPaperWear.png
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 345
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1082e568359bab30800000000000000
+      internalID: 4299694338715320351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_woodWear.png
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 409
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616fd703f1301a5c0800000000000000
+      internalID: -4206077144494901738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_barPoint.png
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 370
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f025667079a544a0800000000000000
+      internalID: -6609690577608564492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_barPointSmall.png
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d07a087526adbf0800000000000000
+      internalID: -298818297306608269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_barRound.png
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 434
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4dd0d8b44a8d240800000000000000
+      internalID: 4816780445868741856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_barRoundSmall.png
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6469f8934a09194d0800000000000000
+      internalID: -3129561231031036346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_metal.png
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 217
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6ab739531374980800000000000000
+      internalID: -8554814860989585742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_metalRed.png
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 78
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de79c3e439b7bf560800000000000000
+      internalID: 7348603089588099053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_metalRedSmall.png
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa815e9a55a8da80800000000000000
+      internalID: -8441815692884211038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_metalSmall.png
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa87025cf6029a660800000000000000
+      internalID: 7397479527353448623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_stone.png
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 14
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d021dcbdcf7497100800000000000000
+      internalID: 106195217564897805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_stoneSmall.png
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83f9a43768db03e0800000000000000
+      internalID: -2086336064579308659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_wood.png
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 532
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a946784c3d4ac13c0800000000000000
+      internalID: -4387450707523443558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_woodSmall.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a821847b76c1ca070800000000000000
+      internalID: 8118895460024324746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
