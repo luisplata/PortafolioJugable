@@ -1523,7 +1523,7 @@ GameObject:
   - component: {fileID: 1456577434}
   - component: {fileID: 1456577433}
   m_Layer: 0
-  m_Name: ControladorDeEscenarioNovelaGrafica
+  m_Name: ControladorDeEscenarioNovelaGrafica_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1560,7 +1560,6 @@ MonoBehaviour:
   panelOpciones: {fileID: 535655035}
   opcion1: {fileID: 813040504}
   opcion2: {fileID: 694410198}
-  dialogoDeTextos: {fileID: 96592971}
   botonSiguienteGO: {fileID: 324778746}
   botonSiguiente: {fileID: 324778750}
   texto: {fileID: 96592973}
