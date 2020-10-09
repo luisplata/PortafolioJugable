@@ -30,7 +30,6 @@ public class EstadoDeDialogo01Presentacion : EstadosFinitosBase
         return GetType();
     }
 
-    bool yaPaso;
 
     public override void Opcion1()
     {
