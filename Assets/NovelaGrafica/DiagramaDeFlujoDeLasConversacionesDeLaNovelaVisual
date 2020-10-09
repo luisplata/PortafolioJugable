@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2020-10-09T00:41:45.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 Edg/85.0.564.70" version="13.7.9" etag="rInXXPAPUs7c9x4zM79K" type="github"><diagram id="0xkgldRylh44Yugnauxz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-09T03:37:48.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 Edg/85.0.564.70" etag="PbF1DT14yR87gsERZ9PD" version="13.7.9" type="github">
+  <diagram id="0xkgldRylh44Yugnauxz" name="Page-1">
+    <mxGraphModel dx="774" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pf1yPvA_dd_MApzwhQ7j-1" target="pf1yPvA_dd_MApzwhQ7j-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-1" value="Hola Mi nombres Luis Plata, mucho gusto" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="320" y="70" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pf1yPvA_dd_MApzwhQ7j-2" target="pf1yPvA_dd_MApzwhQ7j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-2" value="Seré tu guía durante este juego. Ya que se trata de mi Hoja de vida." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pf1yPvA_dd_MApzwhQ7j-3" target="pf1yPvA_dd_MApzwhQ7j-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-3" value="No te preocupes por morir o tomar malas decisiones, no es un juego de verdad." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="370" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pf1yPvA_dd_MApzwhQ7j-4" target="pf1yPvA_dd_MApzwhQ7j-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pf1yPvA_dd_MApzwhQ7j-4" target="pf1yPvA_dd_MApzwhQ7j-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pf1yPvA_dd_MApzwhQ7j-4" target="pf1yPvA_dd_MApzwhQ7j-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-4" value="Ahora, cuéntame que quieres hacer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-5" value="Saber mas de mi vida personal." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="660" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-6" value="Saber mi información Académica." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="660" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-7" value="Saber mi experiencia Laboral." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="660" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-15" value="Plataformas" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" vertex="1" parent="1">
+          <mxGeometry x="180" y="810" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-16" value="Juego de naves" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" vertex="1" parent="1">
+          <mxGeometry x="320" y="810" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="pf1yPvA_dd_MApzwhQ7j-17" value="" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" vertex="1" parent="1">
+          <mxGeometry x="470" y="811" width="100" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
