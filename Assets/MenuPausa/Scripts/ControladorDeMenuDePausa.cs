@@ -20,6 +20,7 @@ public class ControladorDeMenuDePausa : MonoBehaviour
     private bool mostrarTexto;
     [SerializeField] Button botonSalir, botonContinuar, botonReiniciarNivel;
     private bool reiniciarNivel;
+    private bool volverAlInicio;
 
     private void Start()
     {
@@ -34,7 +35,8 @@ public class ControladorDeMenuDePausa : MonoBehaviour
     {
         if (terminoLaAnimacion)
         {
-            SceneManager.LoadScene((int)EscenasDelJuego.INICIO);
+            Ending();
+            volverAlInicio = true;
         }
     }
 
@@ -83,7 +85,13 @@ public class ControladorDeMenuDePausa : MonoBehaviour
                     mostrarTexto = false;
                     if (reiniciarNivel)
                     {
+                        reiniciarNivel = false;
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                    }
+                    if (volverAlInicio)
+                    {
+                        volverAlInicio = false;
+                        SceneManager.LoadScene((int)EscenasDelJuego.NOVELAVISUAL);
                     }
                 }
                 else

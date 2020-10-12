@@ -1608,6 +1608,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   listaDeIputs:
   - {fileID: 7304892474109978277, guid: a1fb4c1ac2945814bafafe6d2821597a, type: 3}
+  - {fileID: 9055308897696478888, guid: 6d300b4814a9d604d8dfbfc9c9c1130e, type: 3}
   isJoitick: 0
   axisHorizontal: Horizontal
   axisVertical: Vertical
