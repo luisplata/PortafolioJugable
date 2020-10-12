@@ -69,9 +69,25 @@ public class InputManager : MonoBehaviour
         return Input.GetAxis(axisHorizontal + ConstruirNombreDeAxis(playerNumber));
     }
 
+    public float SeMovioHorizontalmente()
+    {
+        return Input.GetAxis(axisHorizontal + ConstruirNombreDeAxis());
+    }
+
     public float SeMovioVerticalmente(int playerNumber)
     {
         return Input.GetAxis(axisVertical+ ConstruirNombreDeAxis(playerNumber));
+    }
+    public float SeMovioVerticalmente()
+    {
+        return Input.GetAxis(axisVertical + ConstruirNombreDeAxis());
+    }
+
+    private string ConstruirNombreDeAxis()
+    {
+        string nombreBase = "";
+        nombreBase += isJoitick ? "_joi" : "_key";
+        return nombreBase;
     }
 
     private string ConstruirNombreDeAxis(int playerNumber)
