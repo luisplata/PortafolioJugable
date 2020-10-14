@@ -8,6 +8,8 @@ TagManager:
   - pie
   - enemigo
   - obstaculo
+  - balaPlayer
+  - pared
   layers:
   - Default
   - TransparentFX

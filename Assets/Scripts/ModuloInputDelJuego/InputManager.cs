@@ -42,11 +42,11 @@ public class InputManager : MonoBehaviour
         diccionarioDeControles.TryGetValue(input, out ig);
         if (isJoitick)
         {
-            return Input.GetKey(ig.Joistick);
+            return Input.GetKeyDown(ig.Joistick);
         }
         else
         {
-            return Input.GetKey(ig.Keyboard);
+            return Input.GetKeyDown(ig.Keyboard);
         }
     }
 
