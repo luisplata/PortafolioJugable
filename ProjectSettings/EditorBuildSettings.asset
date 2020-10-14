@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Plataformas.unity
     guid: 852c1c3fd2a5cde4c9e20cddac7ee8e4
+  - enabled: 1
+    path: Assets/Scenes/ShotThemUp.unity
+    guid: 88ce09204d35acb4d850001783fe23f4
   m_configObjects: {}
