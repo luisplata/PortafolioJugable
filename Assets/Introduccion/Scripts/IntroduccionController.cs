@@ -8,6 +8,7 @@ public class IntroduccionController : MonoBehaviour
 {
     [SerializeField] private PlayableDirector director;
     private float deltaTimeLocal;
+    
 
     // Update is called once per frame
     void Update()
@@ -15,7 +16,7 @@ public class IntroduccionController : MonoBehaviour
         deltaTimeLocal += Time.deltaTime;
         if(deltaTimeLocal >= director.duration)
         {
-            SceneManager.LoadScene((int)EscenasDelJuego.NOVELAVISUAL);
+            SceneManager.LoadScene(ServiceLocator.Instance.GetService<IConvertidorDeEnumToInt>().ConvertEnumToInt(EscenasDelJuego.NOVELAVISUAL));
         }
     }
 }
