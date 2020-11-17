@@ -1,6 +1,6 @@
 ﻿public class BloqueDestructible : BloqueDestructibleGenerico
 {
-    protected override void CuandoLePeganAlBloque()
+    public override void CuandoLePeganAlBloque()
     {
         controladorDeSonido.EjecutarSonido("romper_bloque");
         animador.SetTrigger("destruir");

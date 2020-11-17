@@ -55,7 +55,7 @@ public class Dialogo_02 : AccionDeOpciones
 
     public override void Opcion2()
     {
-        
+        CargarEscena((int)EscenasDelJuego.SHOOTTHEMUP);
     }
 
     public override void Opcion3()

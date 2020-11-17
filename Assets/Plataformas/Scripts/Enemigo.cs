@@ -1,53 +1,49 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemigo : MonoBehaviour
+public class Enemigo : MonoBehaviour, ILogicaDeMovimientoDelEnemigo
 {
-    [SerializeField] private float speed = 4;
-    private Vector2 velocidad;
-    [SerializeField] private bool start = false;
-    private bool flip = false;
+    [SerializeField] private float speed;
     public float potenciaDeSaltoDeMario;
+    [SerializeField]
+    private LogicaPlataformaDeMovimientoEnemigo logica;
+
+    private void Start()
+    {
+        logica = new LogicaPlataformaDeMovimientoEnemigo(speed, this);
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (start)
-        {
-            //derecha
-            velocidad = Vector2.left * speed;
-            if (flip)
-            {
-                velocidad *= -1;
-            }
-            velocidad.y = GetComponent<Rigidbody2D>().velocity.y;
-            GetComponent<Rigidbody2D>().velocity = velocidad;
-        }
+        GetComponent<Rigidbody2D>().velocity = logica.CalcularDireccionDeMovimientoDelEnemigo();
+    }
 
+    public float GetVelocidadDeY()
+    {
+        return GetComponent<Rigidbody2D>().velocity.y;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("obstaculo") || collision.gameObject.CompareTag("enemigo"))
-        {
-            flip = !flip;
-        }
+        logica.DebeCambiarDeLadoCuandoColisione(collision.gameObject.CompareTag("obstaculo"), collision.gameObject.CompareTag("enemigo"));
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("pie"))
-        {
-            //GameObject.Find("SFX").GetComponent<ControladorDeSonidos>().EjecutarSonido("matarEnemigo");
-            start = false;
-            GetComponent<Animator>().SetTrigger("morir");
-            float potencia = (potenciaDeSaltoDeMario / 100);
-            collision.gameObject.transform.parent.gameObject.GetComponent<MovimientoPlayer>().Saltar(1.5f);
-            GetComponent<Rigidbody2D>().gravityScale = 0;
-            GetComponent<Collider2D>().enabled = false;
-            Destroy(GetComponent<Rigidbody2D>());
-        }
+        logica.ColisionoConLaParteQueMataDelPlayer(collision.gameObject.CompareTag("pie"), collision.gameObject.transform.parent.gameObject.GetComponent<IMovimientoPlayerPlataformas>());
+    }
+
+    public void AccionesContraElPlayerEnUnity(IMovimientoPlayerPlataformas componenteNecesitado)
+    {
+        GetComponent<Animator>().SetTrigger("morir");
+        float potencia = (potenciaDeSaltoDeMario / 100);
+        componenteNecesitado.Saltar(1.5f);
+        GetComponent<Collider2D>().enabled = false;
+        GetComponent<Rigidbody2D>().gravityScale = 0;
+        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
 
     public void Morir()

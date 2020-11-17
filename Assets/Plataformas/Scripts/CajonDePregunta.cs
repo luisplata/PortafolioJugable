@@ -3,7 +3,7 @@ public class CajonDePregunta : BloqueDestructibleGenerico
 {
     [SerializeField] private Sprite bloqueUsado;
 
-    protected override void CuandoLePeganAlBloque()
+    public override void CuandoLePeganAlBloque()
     {
         controladorDeSonido.EjecutarSonido("tomar_moneda");
         animador.SetTrigger("accion");
