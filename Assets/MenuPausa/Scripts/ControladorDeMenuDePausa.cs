@@ -5,127 +5,85 @@ using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class ControladorDeMenuDePausa : MonoBehaviour
+public class ControladorDeMenuDePausa : MonoBehaviour , ILogicaDeMenuDePausa
 {
     [SerializeField] GameObject panel;
     [SerializeField] InputManager inputManager;
-    [SerializeField] PlayableAsset opening, ending;
+    [SerializeField] private PlayableAsset opening;
+    [SerializeField] private PlayableAsset ending;
     [SerializeField] TextMeshProUGUI texto;
     private PlayableDirector director;
-    [SerializeField] private bool terminoLaAnimacion = true;
-    [SerializeField] private float deltaTimeLocal;
-    private double duracionDePLayabe;
-    private bool esElOpening = true;
     [SerializeField] string dialogoDelMenu;
-    private bool mostrarTexto;
     [SerializeField] Button botonSalir, botonContinuar, botonReiniciarNivel;
-    private bool reiniciarNivel;
-    private bool volverAlInicio;
+    private LogicaDelMenuDePausa logicaLocal;
 
     private void Start()
     {
+        logicaLocal = new LogicaDelMenuDePausa(this);
+
         director = panel.GetComponent<PlayableDirector>();
-        botonContinuar.onClick.AddListener(delegate { AccionBotonContinuar(); });
-        botonSalir.onClick.AddListener(delegate { AccionBotonSalir(); });
-        botonReiniciarNivel.onClick.AddListener(delegate { AccionBotonReinicarNivel(); });
+        botonContinuar.onClick.AddListener(delegate { logicaLocal.AccionBotonContinuar(); });
+        botonSalir.onClick.AddListener(delegate { logicaLocal.AccionBotonSalir(); });
+        botonReiniciarNivel.onClick.AddListener(delegate { logicaLocal.AccionBotonReinicarNivel(); });
         DontDestroyOnLoad(gameObject);
-    }
-
-    private void AccionBotonSalir()
-    {
-        if (terminoLaAnimacion)
-        {
-            Ending();
-            volverAlInicio = true;
-        }
-    }
-
-    private void AccionBotonContinuar()
-    {
-        if (terminoLaAnimacion)
-        {
-            Ending();
-        }
-    }
-
-    private void AccionBotonReinicarNivel()
-    {
-        if (terminoLaAnimacion)
-        {
-            Ending();
-            reiniciarNivel = true;
-        }
     }
 
     private void Update()
     {
-        if (inputManager.SeprecionoElBoton(InputDefinidosParaElJuego.Start) && terminoLaAnimacion)
-        {
-            if (esElOpening)
-            {
-                Opening();
-            }
-            else
-            {
-                Ending();
-            }
-        }
-        if (!terminoLaAnimacion)
-        {
-            deltaTimeLocal += Time.deltaTime;
-            if(deltaTimeLocal >= duracionDePLayabe)
-            {
-                deltaTimeLocal = 0;
-                terminoLaAnimacion = true;
-                director.playableAsset = null;
-                duracionDePLayabe = 0;
-                if (esElOpening)
-                {
-                    panel.SetActive(false);
-                    mostrarTexto = false;
-                    if (reiniciarNivel)
-                    {
-                        reiniciarNivel = false;
-                        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                    }
-                    if (volverAlInicio)
-                    {
-                        volverAlInicio = false;
-                        SceneManager.LoadScene((int)EscenasDelJuego.NOVELAVISUAL);
-                    }
-                }
-                else
-                {
-                    mostrarTexto = true;
-                }
-            }
-        }
+        logicaLocal.EntreOpeningAndEndingQueDebeEjecutar(inputManager.SeprecionoElBoton(InputDefinidosParaElJuego.Start));
 
-        if (mostrarTexto)
+        logicaLocal.ControlandoAccionesQueDebenDeDarseDuranteElJuego(Time.deltaTime);
+
+        ColocandoTextoEnPantallaSiEsNecesario(logicaLocal.MostrarTexto);
+    }
+
+    public void CargarLaPrimeraEscena()
+    {
+        SceneManager.LoadScene(ServiceLocator.Instance.GetService<IConvertidorDeEnumToInt>().ConvertEnumToInt(EscenasDelJuego.INICIO));
+    }
+
+    public void ReinciarLaEscenaActual()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void OcultarPanel()
+    {
+        panel.SetActive(false);
+    }
+
+    public void LimpiarDirector()
+    {
+        director.playableAsset = null;
+    }
+
+    public void ColocandoTextoEnPantallaSiEsNecesario(bool debeMostrarElTexto)
+    {
+        if (debeMostrarElTexto)
         {
             ColocarTextoEnPantalla(dialogoDelMenu, texto);
         }
     }
 
-    private void Opening()
+    public void Opening()
     {
         texto.text = "";
         panel.SetActive(true);
-        esElOpening = false;
-        terminoLaAnimacion = false;
+        logicaLocal.EsElOpening = false;
+        logicaLocal.TerminoLaAnimacion = false;
         director.playableAsset = opening;
         director.Play();
-        duracionDePLayabe = director.duration;
+        logicaLocal.DuracionDePLayabe = director.duration;
     }
 
-    private void Ending()
+    public void Ending()
     {
-        esElOpening = true;
-        terminoLaAnimacion = false;
+        logicaLocal.EsElOpening = true;
+        logicaLocal.TerminoLaAnimacion = false;
         panel.SetActive(true);
         director.playableAsset = ending;
         director.Play();
-        duracionDePLayabe = director.duration;
+        logicaLocal.DuracionDePLayabe = director.duration;
 
     }
 

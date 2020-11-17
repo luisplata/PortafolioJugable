@@ -1,9 +1,10 @@
 {
-    "name": "TDD_EditMode",
+    "name": "IntroduccionTDD",
     "references": [
-        "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner",
-        "Introduccion"
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:0acc523941302664db1f4e527237feb3",
+        "GUID:7fe65dbc1655996498195b8da20ab5e4",
+        "GUID:56a3ac23fd85a6848a480a95d9c1497f"
     ],
     "includePlatforms": [
         "Editor"
@@ -12,7 +13,8 @@
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
-        "nunit.framework.dll"
+        "nunit.framework.dll",
+        "NSubstitute.dll"
     ],
     "autoReferenced": false,
     "defineConstraints": [

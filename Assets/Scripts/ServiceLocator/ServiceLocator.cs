@@ -33,4 +33,9 @@ public class ServiceLocator
 
         return (T)service;
     }
+
+    public void ClearAll()
+    {
+        _services.Clear();
+    }
 }

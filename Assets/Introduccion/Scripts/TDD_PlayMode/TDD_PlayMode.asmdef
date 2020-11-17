@@ -1,6 +1,0 @@
-﻿{
-    "name": "TDD_PlayMode",
-    "optionalUnityReferences": [
-        "TestAssemblies"
-    ]
-}

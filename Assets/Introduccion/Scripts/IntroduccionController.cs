@@ -14,7 +14,8 @@ public class IntroduccionController : MonoBehaviour
     void Update()
     {
         deltaTimeLocal += Time.deltaTime;
-        if(deltaTimeLocal >= director.duration)
+        var terminoElTiempoDeLaAnimacionParaCambiarDeEscena = deltaTimeLocal >= director.duration;
+        if (terminoElTiempoDeLaAnimacionParaCambiarDeEscena)
         {
             SceneManager.LoadScene(ServiceLocator.Instance.GetService<IConvertidorDeEnumToInt>().ConvertEnumToInt(EscenasDelJuego.NOVELAVISUAL));
         }
