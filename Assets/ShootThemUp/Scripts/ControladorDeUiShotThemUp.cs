@@ -3,46 +3,24 @@ using TMPro;
 
 public class ControladorDeUiShotThemUp : MonoBehaviour, IControlDorDeUiShotThemUp
 {
-    [SerializeField] private TextMeshProUGUI candidadObrero, cantidadGeneral, cantidadCapitan, cantidadRaro, puntuacionGeneral, temporalizador;
-    private int puntuacionGeneralInt, cantidadObrerosInt, cantidadGeneralint, cantidadCapitanint, cantidadRaroInt;
+    [SerializeField] private TextMeshProUGUI candidadObrero;
+    [SerializeField] private TextMeshProUGUI cantidadGeneral;
+    [SerializeField] private TextMeshProUGUI cantidadCapitan;
+    [SerializeField] private TextMeshProUGUI cantidadRaro;
+    [SerializeField] private TextMeshProUGUI puntuacionGeneral;
+    [SerializeField] private TextMeshProUGUI temporalizador;
     [SerializeField] private float temporalizadorFloat;//Este debe tener el tiempo limite en segundos
     private bool segirContando = true;
+    private LogicaDeControladorDeUiShootThemUp logica;
 
     private void Start()
     {
-        ActualziarPuntuacion();
-    }
-
-    private void ActualziarPuntuacion()
-    {
-        puntuacionGeneral.text = puntuacionGeneralInt.ToString();
-        candidadObrero.text = cantidadObrerosInt.ToString();
-        cantidadCapitan.text = cantidadCapitanint.ToString();
-        cantidadGeneral.text = cantidadGeneralint.ToString();
-        cantidadRaro.text = cantidadRaroInt.ToString();
+        logica = new LogicaDeControladorDeUiShootThemUp(this);
     }
 
     public void ActualizarPuntuacionGeneral(IEnemigoGenericoMono enemigo)
     {
-        if (typeof(EnemigoObrero).Equals(enemigo.GetType()))
-        {
-            cantidadObrerosInt++;
-        }else if (typeof(EnemigoCapitan).Equals(enemigo.GetType()))
-        {
-            cantidadCapitanint++;
-        }
-        else if (typeof(EnemigoGeneralPrimero).Equals(enemigo.GetType()))
-        {
-            cantidadGeneralint++;
-        }
-        else if (typeof(EnemigoRaro).Equals(enemigo.GetType()))
-        {
-            cantidadRaroInt++;
-        }
-
-        puntuacionGeneralInt += enemigo.GetPuntuacion();
-
-        ActualziarPuntuacion();
+        logica.ActualziarPuntuacionConEnemigoEspecifico(enemigo);
     }
 
     public void TerminoElTiempo()
@@ -70,5 +48,18 @@ public class ControladorDeUiShotThemUp : MonoBehaviour, IControlDorDeUiShotThemU
         }
 
         temporalizador.text = string.Format("{0}:{1}:{2}",minutos, segundos, milisegundos);
+    }
+
+    public void PuntuacionInicial(int puntuacionGeneral, 
+        int cantidadObreros, 
+        int cantidadCaputan, 
+        int cantidadGenral, 
+        int cantidadRaro)
+    {
+        this.puntuacionGeneral.text = puntuacionGeneral.ToString();
+        this.candidadObrero.text = cantidadObreros.ToString();
+        this.cantidadCapitan.text = cantidadCaputan.ToString();
+        this.cantidadGeneral.text = cantidadGenral.ToString();
+        this.cantidadRaro.text = cantidadRaro.ToString();
     }
 }
