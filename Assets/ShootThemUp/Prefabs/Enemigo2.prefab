@@ -123,6 +123,7 @@ MonoBehaviour:
   velocidadDeBajada: 80
   aumentoDeVelocidad: 2
   vida: 3
+  id: capitan
 --- !u!61 &7616667763235979293
 BoxCollider2D:
   m_ObjectHideFlags: 0

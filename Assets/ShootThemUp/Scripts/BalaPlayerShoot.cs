@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public abstract class BalaPlayerShoot : MonoBehaviour
+public abstract class BalaPlayerShoot : MonoBehaviour, IBalaPlayerShoot
 {
     [SerializeField] protected int poder;
     [SerializeField] private float velocidadDeDisparo;

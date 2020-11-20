@@ -1,34 +1,31 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public abstract class EnemigoGeneral_shoot : MonoBehaviour
+public abstract class EnemigoGeneral_shoot : MonoBehaviour, IEnemigoGenericoMono
 {
-    /*
-     funciones comunes:
-     moverse hacia abajo
-     buscar al player para dispararle
-     una abstracta para decidir como disparar
-     cantidad de puntos
-     referencia a la UI
-     */
-    [SerializeField] protected ControladorDeUiShotThemUp ui;
     [SerializeField] protected float velocidadDeBajada;
     [SerializeField] protected float aumentoDeVelocidad;
     [SerializeField] protected int vida;
+    [SerializeField] private string id;
     protected Rigidbody2D rb;
     protected Animator anim;
+    protected LogicaDeEnemigoGenerico logica;
+
+    public string Id { get => id; set => id = value; }
 
     public void AumentarDificultad()
     {
-        velocidadDeBajada *= aumentoDeVelocidad;
+        logica.AumentarDificultadDeEnemigo();
     }
 
     protected virtual void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        ui = GameObject.Find("Canvas").GetComponent<ControladorDeUiShotThemUp>();
+        logica = new LogicaDeEnemigoGenerico(this, 
+            GameObject.Find("Canvas").GetComponent<ControladorDeUiShotThemUp>(), 
+            velocidadDeBajada, 
+            aumentoDeVelocidad, 
+            vida);
     }
 
     public abstract int GetPuntuacion();
@@ -42,32 +39,26 @@ public abstract class EnemigoGeneral_shoot : MonoBehaviour
 
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("balaPlayer"))
-        {
-            LePegaronAlEnemigo(collision.gameObject.GetComponent<BalaPlayerShoot>());
-        }
+        logica.ColisionParaRestarVida(collision.gameObject.CompareTag("balaPlayer"), collision.gameObject.GetComponent<IBalaPlayerShoot>());
     }
 
     protected void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("pared"))
-        {
-            Destroy(gameObject);
-        }
+        logica.ColisionParaSaberSiTieneQueMorir(collision.gameObject.CompareTag("pared"));
     }
 
-    protected void LePegaronAlEnemigo(BalaPlayerShoot bala)
+    public void EsteEnemigoMuere()
     {
-        vida -= bala.GetPoderDeBala();
-
-        if (vida <= 0)
-        {
-            ui.ActualizarPuntuacionGeneral(this);
-            anim.SetTrigger("murio");
-        }
+        anim.SetTrigger("murio");
     }
-    private void TerminoDeMorir()
+
+    public void TerminoDeMorir()
     {
         Destroy(gameObject);
+    }
+
+    public void TieneQueMorir()
+    {
+        TerminoDeMorir();
     }
 }

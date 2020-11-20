@@ -123,6 +123,7 @@ MonoBehaviour:
   velocidadDeBajada: 40
   aumentoDeVelocidad: 2
   vida: 7
+  id: raro
 --- !u!61 &1565911339891947245
 BoxCollider2D:
   m_ObjectHideFlags: 0

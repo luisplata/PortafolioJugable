@@ -1,63 +1,30 @@
-﻿
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class SpwnerDeEnemigos : MonoBehaviour
+public class SpwnerDeEnemigos : MonoBehaviour, ISpawnearEnemigos
 {
-    [SerializeField] private GameObject obrero, capitan, general, raro;
-
-    private float deltaTimeLocal;
+    [SerializeField] private List<EnemigoGeneral_shoot> listaEnemigos;
     [SerializeField] private float tiempoDeSpawn;
     [SerializeField] private int limiteIzquierda, limiteDerecha;
 
+    private LogicaDelSpawner logica;
+
     private void Start()
     {
-        deltaTimeLocal = tiempoDeSpawn - 1;
+        logica = new LogicaDelSpawner(this, tiempoDeSpawn, listaEnemigos);
     }
+
     private void Update()
     {
-        if (EsTiempoDeSpawnear())
-        {
-            GameObject enemigo = Instantiate(InstanciarEnemigo());
-            float x = Random.Range(limiteIzquierda, limiteDerecha);
-            enemigo.transform.position = new Vector2(x, transform.position.y);
-        }
+        logica.EsTiempoDeSpawnear(Time.deltaTime);
     }
 
-    private GameObject InstanciarEnemigo()
+    public void SpawnearEnemigo()
     {
-        //cual vamos a instanciar
-        int probabilidad = Random.Range(0, 100);
-        Debug.Log(probabilidad);
-        if(probabilidad >= 0 && probabilidad <= 10)
-        {
-            return raro;
-        }
-        if (probabilidad >= 10 && probabilidad <= 25)
-        {
-            return general;
-        }
-        if (probabilidad >= 35 && probabilidad <= 50)
-        {
-            return capitan;
-        }
-        else
-        {
-            return general;
-        }
+        GameObject enemigo = Instantiate(logica.InstanciarEnemigo()).gameObject;
+        float x = RandomLocal(limiteIzquierda, limiteDerecha);
+        enemigo.transform.position = new Vector2(x, transform.position.y);
     }
 
-    private bool EsTiempoDeSpawnear()
-    {
-        bool resultado = false;
-
-        deltaTimeLocal += Time.deltaTime;
-
-        if(deltaTimeLocal >= tiempoDeSpawn)
-        {
-            deltaTimeLocal = 0;
-            resultado = true;
-        }
-
-        return resultado;
-    }
+    public int RandomLocal(int v1, int v2) => Random.Range(v1, v2);
 }

@@ -123,6 +123,7 @@ MonoBehaviour:
   velocidadDeBajada: 60
   aumentoDeVelocidad: 2
   vida: 5
+  id: general
 --- !u!61 &830718360507315512
 BoxCollider2D:
   m_ObjectHideFlags: 0

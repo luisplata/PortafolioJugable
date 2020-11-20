@@ -2023,6 +2023,11 @@ MonoBehaviour:
   capitan: {fileID: 7616667763235979271, guid: 1d6f6fbc099027941bfe1bf9d23b941a, type: 3}
   general: {fileID: 830718360507315507, guid: 71aa3071806c9d141ab5680f49772022, type: 3}
   raro: {fileID: 1565911339891947232, guid: 491ee2a19f82e7a4e9f3a03c6ef7f182, type: 3}
+  listaEnemigos:
+  - {fileID: 3998963022225070702, guid: 0bcae9f7734009a4f92d8f0285b8e81e, type: 3}
+  - {fileID: 7616667763235979267, guid: 1d6f6fbc099027941bfe1bf9d23b941a, type: 3}
+  - {fileID: 830718360507315519, guid: 71aa3071806c9d141ab5680f49772022, type: 3}
+  - {fileID: 1565911339891947244, guid: 491ee2a19f82e7a4e9f3a03c6ef7f182, type: 3}
   tiempoDeSpawn: 5
   limiteIzquierda: -13
   limiteDerecha: 9

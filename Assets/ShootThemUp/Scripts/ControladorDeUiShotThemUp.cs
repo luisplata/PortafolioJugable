@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
 
-public class ControladorDeUiShotThemUp : MonoBehaviour
+public class ControladorDeUiShotThemUp : MonoBehaviour, IControlDorDeUiShotThemUp
 {
     [SerializeField] private TextMeshProUGUI candidadObrero, cantidadGeneral, cantidadCapitan, cantidadRaro, puntuacionGeneral, temporalizador;
     private int puntuacionGeneralInt, cantidadObrerosInt, cantidadGeneralint, cantidadCapitanint, cantidadRaroInt;
@@ -22,7 +22,7 @@ public class ControladorDeUiShotThemUp : MonoBehaviour
         cantidadRaro.text = cantidadRaroInt.ToString();
     }
 
-    public void ActualizarPuntuacionGeneral(EnemigoGeneral_shoot enemigo)
+    public void ActualizarPuntuacionGeneral(IEnemigoGenericoMono enemigo)
     {
         if (typeof(EnemigoObrero).Equals(enemigo.GetType()))
         {

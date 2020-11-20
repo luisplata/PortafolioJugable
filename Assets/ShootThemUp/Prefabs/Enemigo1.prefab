@@ -102,6 +102,7 @@ MonoBehaviour:
   velocidadDeBajada: 100
   aumentoDeVelocidad: 1.5
   vida: 2
+  id: obrero
 --- !u!50 &3998963022225070689
 Rigidbody2D:
   serializedVersion: 4
