@@ -10,9 +10,9 @@ public class Dialogo_02 : AccionDeOpciones
         dialogo = "Ahora, cuentame que quieres hacer?";
         opciones = new List<string>
         {
-            "Saber mas sobre mi.",
-            "Conocer mi información academica.",
-            "Ver mi experiencia laboral."
+            "Conocerme mejor. (Plataformas)",
+            "Información academica. (Shoot them up)",
+            "Ver mi experiencia laboral. (N/A)"
         };
     }
 

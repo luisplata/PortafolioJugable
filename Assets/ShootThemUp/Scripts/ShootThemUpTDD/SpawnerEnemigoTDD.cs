@@ -46,7 +46,7 @@ namespace Tests
         public void FactoriaDeEnemigos_CasosExitosos(int pro, string idEsperada)
         {
             //
-            subMono.RandomLocal(Arg.Any<int>(), Arg.Any<int>()).Returns(pro);
+            subMono.RandomLocal(0, 100).Returns(pro);
             List<EnemigoGeneral_shoot> lista = new List<EnemigoGeneral_shoot>()
             {
                 new EnemigoRaro()
